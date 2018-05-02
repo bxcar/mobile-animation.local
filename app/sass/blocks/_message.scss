@@ -57,6 +57,15 @@
   margin-bottom: 1.5vh;
 }
 
+.message__appstore {
+  width: 36vh;
+  margin-bottom: 0;
+}
+
+.message--4 {
+  margin-top: 25vh;
+}
+
 @media (max-width: 600px) {
   .message__wrapper {
     left: 67%;
