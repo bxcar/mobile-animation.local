@@ -1,12 +1,16 @@
 .message {
-  height: 20vh;
+  //height: 20vh;
   width: 36vh;
   box-sizing: border-box;
+  @include font(Open Sans, sans-serif, 2vh, 2.5vh, inherit, 600);
+  margin-bottom: 1.5vh;
+}
+
+.message__wrapper {
   position: absolute;
   left: 54.5%;
   transform: translate(-54.5%, 0);
   top: 37%;
-  @include font(Open Sans, sans-serif, 2vh, 2vh, inherit, 600);
 }
 
 .message__top {
@@ -29,7 +33,9 @@
 }
 
 .message__img {
-  margin-right: 1.5vh;
+  margin-right: 1vh;
+  width: 3vh;
+  border-radius: 5px;
 }
 
 .message__title {
@@ -49,4 +55,11 @@
 .message__text {
   margin-top: 1.5vh;
   margin-bottom: 1.5vh;
+}
+
+@media (max-width: 600px) {
+  .message__wrapper {
+    left: 67%;
+    transform: translate(-67%, 0);
+  }
 }
