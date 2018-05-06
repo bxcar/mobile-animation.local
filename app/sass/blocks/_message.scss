@@ -58,17 +58,19 @@
 }
 
 .message__appstore {
-  width: 36vh;
+  width: 18vh;
   margin-bottom: 0;
 }
 
 .message--4 {
-  margin-top: 25vh;
+  margin-top: 21.5vh;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
   .message__wrapper {
-    left: 67%;
-    transform: translate(-67%, 0);
+    /*left: 67%;
+    transform: translate(-67%, 0);*/
+    margin-left: -1.5vh;
   }
 }
